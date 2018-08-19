@@ -26,7 +26,7 @@ When we want to make changes to experiment a new feature, or we may want to add 
 
 How do the diagrams help you visualize the branch structure?
 
-Using diagrams we can draw a line for the master branch with the commits made on it and from that master branch we can draw the branch or branches created with the associated commits.
+Using diagrams we can draw a line for the master branch with the commits made on it and from that master branch we can draw the branch or branches created with the associated commits, keeping track of which branches contain which commits.
 
 
 
