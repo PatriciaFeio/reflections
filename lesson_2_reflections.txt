@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized with git init a directory is created and metadata about the history of the 
+repository is stored in the main directory under a hidden directory named .git.
+We need to initialize a repository to be able to track changes to our project.

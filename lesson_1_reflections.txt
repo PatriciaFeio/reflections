@@ -1,0 +1,48 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+
+Comparing changes between two files with git diff is an extremely useful tool for any developer.
+It gives a developer a quick way to catch bugs in a file.
+When working with a small file, it might seem easy to look directly to the file to try and find any bug,
+but when working with large files it's more productive to use such a tool, specially if we want to preseve our own sanity.
+
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+
+Having access to the history of previous versions of a file we're working at enables us to easily make changes to our work by going back to an older version of the file.
+It keeps work organized and prevents the deletion of a file version that could be important for finding an error or for testing matters.
+
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+
+A commit in Git is made manually whereas Google Docs automatically saves different versions of a file. 
+The advantage of a manual commit is the option of choosing the proper version to save, instead of constantly saving versions that are of no use because they have no significant modifications.
+On the other hand, one might forget to save an important file version or even save a version that has no special interest. But well, that's the danger to all tasks that are human-dependent.
+
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+Git is a version control system developed to support all kinds of files and to allow multiple file savings in one commit which is a good feature for working with code because usually a developer's work consists of multiple files all connected to each other.
+Contrarily, Goolge Docs was not designed to work with source code files, but to work with document files, spreadsheets 
+and presentation files that aren't connected to each other as source code files can be.
+So, in Google Docs we don't really need to save multiple files in one commit
+
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+
+git log shows us commit logs, i.e. shows the commits that lead up to the state of the currently checked out branch. These commits are shown in reverse chronological order.
+(www.thegeekstuff.com)
+
+git diff shows changes between commits using the IDs of two different commits we want to compare.
+
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+
+Using git checkout we can checkout a commit and in doing so we are able to return to the files we had before that commit was made.
+So, if there is any mistake or bug in a version of a file we can always return to the state before the file with the mistake.
+This gives a developer a sense of security when changing something in a file because the developer can always return to the previous file version.
+
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+First, I want to use Git to be able to add files to Github in order to have a portfolio to show to future employers.
+Second, I want to learn how to use Git because it's an important tool in tech working environment.
+
