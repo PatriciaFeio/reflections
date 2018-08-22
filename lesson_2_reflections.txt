@@ -29,6 +29,22 @@ How do the diagrams help you visualize the branch structure?
 Using diagrams we can draw a line for the master branch with the commits made on it and from that master branch we can draw the branch or branches created with the associated commits, keeping track of which branches contain which commits.
 
 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+All the commits will be displayed in one line, organized by date.
+
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+
+Pros:
+- Time saving and less preoccupations. We don´t have to think all the time about merging and we don't have to worry about  to merge. Git merges for us.
+
+Cons:
+- There can be problems when working in a project with lots of commits from other developers.
+
+
 
 
 
