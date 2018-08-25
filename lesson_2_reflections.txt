@@ -2,7 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When a repository is initialized with git init a directory is created and metadata about the history of the 
 repository is stored in the main directory under a hidden directory named .git.
-We need to initialize a repository to be able to track changes to our project.
+We need to initialize a repository to be able to track changes to our projects.
+
 
 
 How is the staging area different from the working directory and the repository?
@@ -12,10 +13,12 @@ The staging area is some sort of temporary area where files are sent when we mak
 Files in the staging area can still be modified, so we can send a couple of files to the staging area but then decide we want some changes to one of the files. We can still do that before commit the file to the repository.
 
 
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
 We can use the staging area to keep modified files or just one modified file until we think we've made a logical change and then commit to the repository.
+
 
 
 What are some situations when branches would be helpful in keeping your history
@@ -24,9 +27,11 @@ organized? How would branches help?
 When we want to make changes to experiment a new feature, or we may want to add or to retrieve something from our project but we want to keep our original project, then it's a good idea to create a branch or branches to do that.
 
 
+
 How do the diagrams help you visualize the branch structure?
 
-Using diagrams we can draw a line for the master branch with the commits made on it and from that master branch we can draw the branch or branches created with the associated commits, keeping track of which branches contain which commits.
+When using diagrams we can draw a line for the master branch with the commits made on it and from that master branch we can draw the branch or branches created with the associated commits, keeping track of which branches contain which commits.
+
 
 
 What is the result of merging two branches together? Why do we represent it in
@@ -35,11 +40,12 @@ the diagram the way we do?
 All the commits will be displayed in one line, organized by date.
 
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
 Pros:
-- Time saving and less preoccupations. We don´t have to think all the time about merging and we don't have to worry about  to merge. Git merges for us.
+- Time saving and less preoccupations. We don´t have to think all the time about merging and we don't have to worry about not to merge. Git merges for us.
 
 Cons:
 - There can be problems when working in a project with lots of commits from other developers.
