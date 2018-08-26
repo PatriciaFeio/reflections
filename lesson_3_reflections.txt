@@ -1,1 +1,7 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+I would want to create a local repository in three situations (that I can remember of):
+
+To publish a portfolio so I can exemplify my skills, training and experiences;
+To contribute to open source projects;
+When working collaboratively on a project.
