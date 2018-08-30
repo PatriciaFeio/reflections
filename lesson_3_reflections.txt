@@ -13,3 +13,17 @@ automatically stay up-to-date with your remote repository?
 
 Things automatically done are not the best option because we can lose track of 
 what is really important to pull.
+
+
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Forks are copies of someone else's repository to our GitHub account.
+
+Clones are copies of a GitHub repository to our local repo.
+
+When you want to add a new feature or fix a bug — no matter how big or how small — you need a new line of 
+development. A new branch is then created from the main branch as a reference to a commit and all the 
+necessary commits are made within the new branch. There can be as many branches as we consider needed to develop 
+a project. After the features are well tested or a bug fixed we can then merge the branch or branches into the main branch. 
