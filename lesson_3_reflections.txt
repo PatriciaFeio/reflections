@@ -1,29 +1,40 @@
 When would you want to create a remote repository rather than keeping all your work local?
 
-I would want to create a local repository in three situations (that I can remember of):
+	I would want to create a local repository in three situations (that I can remember of):
 
-To publish a portfolio so I can exemplify my skills, training and experiences;
-To contribute to open source projects;
-When working collaboratively on a project.
+	To publish a portfolio so I can exemplify my skills, training and experiences;
+	To contribute to open source projects;
+	When working collaboratively on a project.
 
 
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-Things automatically done are not the best option because we can lose track of 
-what is really important to pull.
+	Things automatically done are not the best option because we can lose track of 
+	what is really important to pull.
 
 
 
 Describe the differences between forks, clones, and branches. When would you
 use one instead of another?
 
-Forks are copies of someone else's repository to our GitHub account.
+	Forks are copies of someone else's repository to our GitHub account.
 
-Clones are copies of a GitHub repository to our local repo.
+	Clones are copies of a GitHub repository to our local repo.
 
-When you want to add a new feature or fix a bug — no matter how big or how small — you need a new line of 
-development. A new branch is then created from the main branch as a reference to a commit and all the 
-necessary commits are made within the new branch. There can be as many branches as we consider needed to develop 
-a project. After the features are well tested or a bug fixed we can then merge the branch or branches into the main branch. 
+	When you want to add a new feature or fix a bug — no matter how big or how small — you need a new line of 
+	development. A new branch is then created from the main branch as a reference to a commit and all the 
+	necessary commits are made within the new branch. There can be as many branches as we consider needed to develop a project. After the features are well tested or a bug fixed we can then merge the branch or branches into the main branch. 
+
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+	Allows us to compare the remote repository while working at our branch locally using git log and git diff.
+	We can also merge more easily our own commits to the remote merging it locally before pushing to the remote.
+
+
+
+
